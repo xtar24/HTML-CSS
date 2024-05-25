@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(pink, skyblue);
+  color: rgb(66, 66, 65);
+  text-align: center;
+  font-family: "Happy Monkey";
+}
+h1,
+h2,
+h4,
+p {
+  text-shadow: 0px 0px 2px black;
+}
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#bff-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid skyblue;
+}
+
+h2,
+h4 {
+  background: silver;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bday-age {
+  background: silver;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+#bday-date {
+  background: silver;
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.gift-section {
+  margin-top: 60px;
+}
+.gift-title {
+  margin-bottom: 10px;
+}
+.gift-hint {
+  margin-top: 0;
+}
+.gift-img {
+  width: 600px;
+  height: 400px;
+  border: 6px solid wheat;
+  border-radius: 10px;
+  background-size: cover;
+  background-image: url(https://media2.giphy.com/media/VIe5NOnlPxJ9FcONBq/giphy.webp?cid=790b7611jcictioakoeuwspbsagu5zglgxzit1ssmd6tm2ol&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+}
+#gift-img-hot:hover {
+  background-image: url(https://media1.giphy.com/media/qOy598kkV9pjW/200.webp?cid=ecf05e47dncgv91655xode8ytzlkwsqumvkgx2qqd08zv47o&ep=v1_gifs_search&rid=200.webp&ct=g);
+}
+#gift-img-genuis:hover {
+  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWpwcG11eGN1NW91b3UzNnFlbW1pbTZnNnZnZnBqNzA4OGg2OGlmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xr9ZKY1wbbJXDW/giphy.gif);
+}
+#gift-img-badass:hover {
+  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGJid3FreHUwc3YwZDNvdHZwY251dHh6eDkyM2Q0cDk5Z3pjY3g4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/detOmeyQVP0D1uCX1F/giphy.gif);
+}
+#gift-img-cheers:hover {
+  background-image: url(https://media2.giphy.com/media/3s4lT38H7yM4ZBbSm0/200.webp?cid=790b7611cyssklt6xn8133wimvr6yhfh6ypb6gd2npql5dlu&ep=v1_gifs_search&rid=200.webp&ct=g);
+}
+#gift-img-cheers {
+  height: 200px;
+}
+#footer {
+  width: 400px;
+  margin: 40px auto 20px;
+}
+a {
+  color: white;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
